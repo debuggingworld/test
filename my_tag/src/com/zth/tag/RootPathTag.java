@@ -6,6 +6,7 @@ import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.PageContext;
 import javax.servlet.jsp.tagext.Tag;
+import java.io.IOException;
 
 public class RootPathTag implements Tag {
     private PageContext pageContext = null;
@@ -38,7 +39,18 @@ public class RootPathTag implements Tag {
 
         HttpServletRequest request = (HttpServletRequest)pageContext.getRequest();
 
-        
+        System.out.println("getScheme：：：：："+request.getScheme());
+        System.out.println("getServerName::::::::"+request.getServerName());
+        System.out.println("getServerPort：：：：："+request.getServerPort());
+        System.out.println("getContextPath：：：："+request.getContextPath());
+
+        String path = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+request.getContextPath();
+        try {
+            out.println(path);
+            out.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
 
         return Tag.EVAL_PAGE;

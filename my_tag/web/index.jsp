@@ -9,10 +9,31 @@
 <%@taglib prefix="my" uri="http://www.zth.com/mytag" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>首页</title>
   </head>
   <body>
-  <h2>Tag Demo</h2>
-  <my:hello counter="3"/>
+  <%--<h2>Tag Demo</h2>
+  <my:hello counter="1"/>
+  <a href="<my:root/>">首页</a>
+
+  <my:welcome>
+    <h2>Welcome,<%=pageContext.getRequest().getAttribute("user")%></h2> &lt;%&ndash;<body-content>JSP</body-content>&ndash;%&gt;
+    <h2>Welcome,${user}</h2>    &lt;%&ndash;<body-content>scriptless</body-content>&ndash;%&gt;
+  </my:welcome>--%>
+
+  <table width="400" border="1" >
+
+    <tr><th>ID</th><th>Name</th><th>Sex</th></tr>
+
+    <my:userList>
+      <tr><td><my:user pop="id"/></td><td><my:user pop="name"/></td><td><my:user pop="sex"/></td></tr>
+    </my:userList>
+
+
+  </table>
+
+
   </body>
+
+
 </html>
