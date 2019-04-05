@@ -21,7 +21,7 @@
   <h2>Welcome,${user}</h2>    &lt;%&ndash;<body-content>scriptless</body-content>&ndash;%&gt;
 </my:welcome>--%>
 
-<table width="400" border="1" >
+<%--<table width="400" border="1" >
 
   <tr><th>ID</th><th>Name</th><th>Sex</th></tr>
 
@@ -30,8 +30,9 @@
   </my:userList>
 
 
-</table>
+</table>--%>
 
+<my:decdiv>welcome,###</my:decdiv>
 
 </body>
 
