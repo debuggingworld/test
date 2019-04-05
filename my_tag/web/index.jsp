@@ -32,7 +32,8 @@
 
 </table>--%>
 
-<my:decdiv>welcome,###</my:decdiv>
+<%--<my:decdiv>welcome,###</my:decdiv>--%>
+<my:repalceName>Welcome ,###</my:repalceName>
 
 </body>
 

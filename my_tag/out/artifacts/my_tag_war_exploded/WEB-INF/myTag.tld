@@ -64,6 +64,11 @@
         <tag-class>com.zth.bodyTag.ReplaceTag</tag-class>
         <body-content>JSP</body-content>
     </tag>
+    <tag>
+        <name>repalceName</name>
+        <tag-class>com.zth.my_BodyTagSupport.ReplaceTag</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
     <!--<tag>
         <description>Outputs Hello, World</description>
         <name>helloWorld</name>
