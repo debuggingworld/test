@@ -1,4 +1,4 @@
-package com.zth.bodyTag;
+package com.zth.init;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
@@ -13,5 +13,9 @@ public class InitBodyTagWeb implements ServletContextListener {
         ServletContext context = sce.getServletContext();
 
         context.setAttribute("uname","李四");
+
+
     }
+
+
 }

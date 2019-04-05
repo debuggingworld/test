@@ -4,12 +4,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
     version="2.0">
+
     <description>A tag library exercising SimpleTag handlers.</description>
     <tlib-version>1.0</tlib-version>
     <short-name>SimpleTagLibrary</short-name>
     <uri>http://www.zth.com/mytag</uri>
 
-    <tag>
+   <!-- <tag>
         <description>Outputs Hello, World</description>
         <name>hello</name>
         <tag-class>com.zth.tag.HelloTag</tag-class>
@@ -19,9 +20,9 @@
             <required>true</required>
             <rtexprvalue>true</rtexprvalue>
         </attribute>
-    </tag>
+    </tag>-->
 
-    <tag>
+   <!-- <tag>
         <description>Root path</description>
         <name>root</name>
         <tag-class>com.zth.tag.RootPathTag</tag-class>
@@ -43,11 +44,11 @@
         </attribute>
     </tag>
 
-    <tag>
+   &lt;!&ndash; <tag>
         <name>userList</name>
         <tag-class>com.zth.IterationTag.UserListTag</tag-class>
         <body-content>JSP</body-content>
-    </tag>
+    </tag>&ndash;&gt;
     <tag>
         <name>user</name>
         <tag-class>com.zth.IterationTag.UserTag</tag-class>
@@ -68,6 +69,11 @@
         <name>repalceName</name>
         <tag-class>com.zth.my_BodyTagSupport.ReplaceTag</tag-class>
         <body-content>JSP</body-content>
+    </tag>-->
+    <tag>
+        <name>userList</name>
+        <tag-class>com.zth.SimpleTag.UserListTag</tag-class>
+        <body-content>empty</body-content>
     </tag>
     <!--<tag>
         <description>Outputs Hello, World</description>

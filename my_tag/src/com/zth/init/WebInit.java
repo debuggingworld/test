@@ -1,4 +1,6 @@
-package com.zth.IterationTag;
+package com.zth.init;
+
+import com.zth.IterationTag.User;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
