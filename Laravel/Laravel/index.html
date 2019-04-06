@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			body,ul,li,h1,h2,h3,h4,h5,h6,input,p{ padding: 0; margin: 0;}
+			body{ font-size: 14px; font-family: "微软雅黑"; background: #eee;}
+			#top{ background:url(img/bak.jpg) no-repeat; height: 237px; background-size: 100%; }
+			
+			#top_outer,#nav_inner,#main{width: 1140px; margin: 0 auto;}
+			
+			#top_outer{  height: 237px; position: relative;}
+			
+			#top h1{font-size: 40px; color: white; font-weight: 600; text-align: center;}
+			#top ul{position: absolute; left: 260px; top:180px;  list-style: none; width: 800px;}
+			#top ul li {float: left;}
+			#top ul li a{text-decoration: none; color: white; padding: 6px 8px; text-align: center; border: 1px #F00 solid; border-radius: 5px; margin-right: 5px;}
+		    #top ul li a:hover{ background: orangered;}
+		    
+		    #nav{ height: 58px; border-bottom: 1px #ccc solid; background: #FFF;}
+		    #nav_inner{background: #CCC;}
+		    #nav_inner ul{list-style: none;}
+		    #nav_inner ul li{float: left;}
+		    #nav_inner ul li a{ display: block; padding: 0 15px; text-decoration: none; color: #666; text-align: center; line-height: 58px; }
+		    #nav_inner ul li a:hover,#nav_inner ul li a.curt{ font-weight:bold; border-bottom: 1px orangered solid;}
+	       
+	       
+	       #main{height: 600px; margin-top: 50px;}
+	       #main #left{width: 753px; height: 600px; float: left; background: #FF4500;}
+	       #main #right{width: 365px; height: 600px; float: right; background: blue;}
+	       
+	       #main #left .art_list{ background: #FFF; padding: 20px; margin-bottom: 30px;}
+	        #main #left .art_list h1{ font-size: 26px; font-weight: 600; text-align: center;}
+	         #main #left .art_list h5{ color: #888; font-size: 14px; font-weight: 400;text-align: center; line-height: 50px;}
+	          #main #left .art_list h5 span{ color: orangered; }
+	            #main #left .art_list img{}
+	              #main #left .art_list p{ line-height: 34px; color: #777; border-bottom: 1px #ccc solid; padding-bottom: 30px;}
+	                #main #left .art_list p a{ text-decoration: none; color: white; background: orangered; padding: 5px 8px; border-radius: 5px;}
+	                 #main #left .art_list p a:hover{ background: black;}
+		</style>
+	</head>
+	<body>
+		<div id="top">
+			<div id="top_outer">
+				   <div style="height: 83px;"></div>
+					<h1>为WEB艺术家创造PHP框架。</h1>
+					<ul>
+						<li><a href="#" >5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+					</ul>
+			</div>
+		</div>
+		
+		<!--
+        	作者：langyamoren@163.com
+        	时间：2019-02-15
+        	描述：导航
+        -->
+        <div id="nav">
+        	<div id="nav_inner">
+        		<ul>
+        			   <li><a href="#" class="curt">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+						<li><a href="#">5.6文档</a></li>
+        		</ul>
+        	</div>
+        </div>
+        
+        <!--
+        	作者：langyamoren@163.com
+        	时间：2019-02-15
+        	描述：主体
+        -->
+        <div id="main">
+        	<div id="left">
+        		<div></div>
+        	   <div class="art_list">
+        	   	  <h1>这里是标题</h1>
+        	   	  <h5>作者：<span>嘎嘎</span> 2008年11月23号</h5>
+        	   	  <img  src="img/laravel-5.6.png" width="100%"/>
+        	   	  <p>
+        	   	  	 W3School 中，我们提供完整的 CSS3 参考手册，包括所有属性和选择器的语法、实例、，我们提供完整的 CSS3 参考手册，包括所有属性和选择器的语法、实例、浏览器支持信息。
+        	   	  	 <br />
+        	   	  	 <a href="#">阅读全文</a>
+        	   	  </p>
+        	  
+        	   </div>
+        	   
+        	   
+        	   <div class="art_list">
+        	   	  <h1>这里是标题</h1>
+        	   	  <h5>作者：<span>嘎嘎</span> 2008年11月23号</h5>
+        	   	  <img  src="img/laravel-5.6.png" width="100%"/>
+        	   	  <p>
+        	   	  	 W3School 中，我们提供完整的 CSS3 参考手册，包括所有属性和选择器的语法、实例、，我们提供完整的 CSS3 参考手册，包括所有属性和选择器的语法、实例、浏览器支持信息。
+        	   	  	 <br />
+        	   	  	 <a href="#">阅读全文</a>
+        	   	  </p>
+        	  
+        	   </div>
+        	   
+        	   
+        	   <div class="art_list">
+        	   	  <h1>这里是标题</h1>
+        	   	  <h5>作者：<span>嘎嘎</span> 2008年11月23号</h5>
+        	   	  <img  src="img/laravel-5.6.png" width="100%"/>
+        	   	  <p>
+        	   	  	 W3School 中，我们提供完整的 CSS3 参考手册，包括所有属性和选择器的语法、实例、，我们提供完整的 CSS3 参考手册，包括所有属性和选择器的语法、实例、浏览器支持信息。
+        	   	  	 <br />
+        	   	  	 <a href="#">阅读全文</a>
+        	   	  </p>
+        	  
+        	   </div>
+        	   
+        	   <div class="art_list">
+        	   	  <h1>这里是标题</h1>
+        	   	  <h5>作者：<span>嘎嘎</span> 2008年11月23号</h5>
+        	   	  <img  src="img/laravel-5.6.png" width="100%"/>
+        	   	  <p>
+        	   	  	 W3School 中，我们提供完整的 CSS3 参考手册，包括所有属性和选择器的语法、实例、，我们提供完整的 CSS3 参考手册，包括所有属性和选择器的语法、实例、浏览器支持信息。
+        	   	  	 <br />
+        	   	  	 <a href="#">阅读全文</a>
+        	   	  </p>
+        	  
+        	   </div>
+        	</div>
+        	<div id="right">right</div>
+        	<div style="clear: both;"></div>
+        </div>
+	</body>
+</html>
