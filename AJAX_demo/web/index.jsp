@@ -1,30 +1,15 @@
-
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Title</title>
-    <script>
-        function fun() {
-            var xmlhttp;
-            if (window.XMLHttpRequest) {
-                xmlhttp = new XMLHttpRequest();
-            }else {
-                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-            }
-
-            xmlhttp.onreadystatechange = function () {
-                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                    document.getElementById("myDiv").innerHTML = xmlhttp.responseText;
-                }
-            }
-
-            xmlhttp.open("POST","welcome",true);
-            xmlhttp.send();
-        }
-    </script>
 </head>
 <body>
-<div id="myDiv"><h3 style=""> 南京的雨不停的下不停的下</h3></div>
-<button type="button" onclick="fun()" >修改内容</button>
+<center>
+    <h3><a href="demo01.jsp">demo01</a></h3>
+    <h3><a href="demo02.jsp">demo02</a></h3>
+    <h3><a href="demo03.jsp">demo03</a></h3>
+
+</center>
 </body>
 </html>

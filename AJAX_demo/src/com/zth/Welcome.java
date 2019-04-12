@@ -13,10 +13,19 @@ public class Welcome extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=utf-8");
+        req.setCharacterEncoding("utf-8");
         PrintWriter out = resp.getWriter();
 
-        int i = 0;
-        out.print("这个世界会好吗？"+i++);
+        String uname = req.getParameter("uname");
+
+        try{
+            Thread.sleep(2000);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+        out.print("Welcome "+uname+"!");
+
         out.close();
     }
 }
