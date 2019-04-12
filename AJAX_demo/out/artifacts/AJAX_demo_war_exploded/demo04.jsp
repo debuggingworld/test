@@ -28,10 +28,10 @@
 
                 if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                     if (xmlhttp.responseText == 0) {
-                        console.log("可以注册")
+
                         info = "<span style='color:green'>可以注册!</span>";
                     }else {
-                        console.log("不可以注册")
+
                         info = "<span style='color:red'>已注册!</span>";
                     }
 
