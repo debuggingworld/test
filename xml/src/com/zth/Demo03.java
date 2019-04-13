@@ -7,7 +7,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 
-public class demo03 {
+public class Demo03 {
     public static void main(String[] args) throws Exception {
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -42,4 +42,6 @@ public class demo03 {
             System.out.println("\t"+node1.getNodeName()+":::"+node1.getFirstChild().getNodeValue());
         }
     }
+
+
 }

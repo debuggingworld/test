@@ -7,7 +7,7 @@ import org.w3c.dom.NodeList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-public class demo02 {
+public class Demo02 {
     public static void main(String[] args) throws Exception {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 

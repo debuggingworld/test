@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <stus>
     <stu>
-        <name id="1">张雨柔</name>
+        <name id="1">张三</name>
         <age>18</age>
         <sex>女</sex>
     </stu>
