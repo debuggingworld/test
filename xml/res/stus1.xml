@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><stus>
+    <stu>
+        <name id="1">张三</name>
+        <age>18</age>
+        <sex>女</sex>
+    </stu>
+<stu><name id="2">咯咯</name><age>18</age><sex>女</sex></stu></stus>
