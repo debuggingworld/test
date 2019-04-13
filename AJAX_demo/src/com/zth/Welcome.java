@@ -18,11 +18,11 @@ public class Welcome extends HttpServlet {
 
         String uname = req.getParameter("uname");
 
-        try{
+       /* try{
             Thread.sleep(2000);
         }catch (Exception e){
             e.printStackTrace();
-        }
+        }*/
 
         out.print("Welcome "+uname+"!");
 

@@ -20,7 +20,7 @@ function ajax(method, url, data, proc) {
     }
 
     if (method.toLowerCase() == "post") {
-        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
         xmlHttp.send(data);
     }else {
         xmlHttp.send();

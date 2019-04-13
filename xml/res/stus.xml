@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <stus>
     <stu>
-        <name>张雨柔</name>
+        <name id="1">张雨柔</name>
         <age>18</age>
         <sex>女</sex>
+    </stu>
+    <stu>
+        <name id="2">哈哈</name>
+        <age>18</age>
+        <sex>男</sex>
     </stu>
 </stus>

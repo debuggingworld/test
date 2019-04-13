@@ -15,12 +15,13 @@ function ajax(method, url, data, proc) {
 
     xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+            console.log(xmlHttp.responseText)
             proc.call(null,xmlHttp.responseText);
         }
     }
 
     if (method.toLowerCase() == "post") {
-        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
         xmlHttp.send(data);
     }else {
         xmlHttp.send();

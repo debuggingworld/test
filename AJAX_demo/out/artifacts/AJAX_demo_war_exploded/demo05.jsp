@@ -14,12 +14,12 @@
         function proc() {
             var email=document.getElementById("email").value;
 
-            ajax("post","welcome","email="+email,function (datta) {
+            ajax("post","email","email="+email,function (data) {
                 var info;
-                if(1==data){
-                    info="<span style='color:red;'>不可以注册1！</span>";
-                }else{
-                    info="<span style='color:green;'>可以注册1！</span>";
+                if (data == 0) {
+                    info = "<span style='color:green'>可以注册!</span>";
+                }else {
+                    info = "<span style='color:red'>已注册!</span>";
                 }
 
                 document.getElementById("show").innerHTML=info;
@@ -29,7 +29,7 @@
 </head>
 <body>
 <center>
-    <h1>ajax02_异步请求</h1>
+    <h1>ajax 封装</h1>
     Email:<input type="text" id="email" onblur="proc();"/><span id="show"></span><br/>
     用户名：<input type="text" />
 
