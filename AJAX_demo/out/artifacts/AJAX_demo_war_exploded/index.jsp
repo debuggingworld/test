@@ -77,11 +77,52 @@
             //elem.removeClass("lc");
 
             /*设置和获取HTML，文本和值 */
-            //var elem = $("ul li:eq(2)");
-            var elem = $("ul li:eq(0)");
+            //var elem = $("ul li:eq(0)");
             // 获取 html
-            alert(elem.html());
+            //alert(elem.html());
+
+            // 设置html
+            //elem.html("<font color='red'>哈哈</font>")
+
+            // 获取文本
+            //alert(elem.text());
+
+            // 设置文本
+            //elem.text("啦啦");
+
+            // 遍历节点
+            /*var elems = $("body").children();
+            alert(elems.length);
+
+            var lis = $("ul").children();
+            for (var i = 0; i < lis.length; i++) {
+                //alert(lis[i].innerHTML);
+                alert($(lis[i]).html());
+            }*/
+
+            // next()、prev()
+            /*var elem = $("ul li:eq(1)");
+            alert(elem.next().html());
+            alert(elem.prev().html());*/
+
+           /* css-DOM 操作*/
+            // 获取 css 样式
+           /* var  c = $("#li").css("color");
+            alert(c)*/
+
+           // 设置 css 样式
+            //$("#li").css("background-color","green")
+
         });
+
+        function getUserName() {
+            var  userName = $("#userName").val();
+            alert(userName);
+        }
+
+        function setUserName() {
+            $("#userName").val("你好啊！");
+        }
 
     </script>
     <style type="text/css">
@@ -103,8 +144,12 @@
 <ul>
     <li title="马云"><font color="green">马云</font></li>
     <li title="马化腾" class="lc" >马化腾</li>
-    <li title="李彦宏">李彦宏</li>
+    <li title="李彦宏" style="color: red; " id="li">李彦宏</li>
 </ul>
+
+<input type="text" id="userName"/>
+<input type="button" value="获取数据" onclick="getUserName()"/>
+<input type="button" value="设置数据" onclick="setUserName()"/>
 
 </body>
 </html>
