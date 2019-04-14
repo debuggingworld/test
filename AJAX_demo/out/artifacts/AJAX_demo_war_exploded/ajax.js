@@ -15,7 +15,6 @@ function ajax(method, url, data, proc) {
 
     xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-            console.log(xmlHttp.responseText)
             proc.call(null,xmlHttp.responseText);
         }
     }
