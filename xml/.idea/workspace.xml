@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afa850a4-d110-49ec-b948-f42dd9818481" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/res/stus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/stus.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/stus2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/stus2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dom4j/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dom4j/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +15,12 @@
     <session id="-1632865">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dom4j/Demo01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="1075">
+              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/res/stus.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -75,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dom4j/Demo02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="425">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -275,10 +273,10 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JAR Application.dom4j-1.6.1.jar" />
       <item itemvalue="Application.Demo03" />
       <item itemvalue="Application.Demo05" />
       <item itemvalue="Application.Demo04" />
-      <item itemvalue="JAR Application.dom4j-1.6.1.jar" />
       <item itemvalue="Application.Demo01" />
       <item itemvalue="Application.Demo02 (1)" />
     </list>
@@ -306,17 +304,20 @@
       <workItem from="1555139910770" duration="12564000" />
       <workItem from="1555155822341" duration="599000" />
       <workItem from="1555210423537" duration="6316000" />
+      <workItem from="1555227291139" duration="647000" />
+      <workItem from="1555228565440" duration="4000" />
+      <workItem from="1555228606653" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22322000" />
+    <option name="totallyTimeSpent" value="22977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987013" visible="true" weight="0.22239032" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987013" visible="true" weight="0.2322239" />
       <window_info id="Structure" order="1" sideWeight="0.5012987" side_tool="true" weight="0.24130106" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -448,17 +449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/stus.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dom4j/Demo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="1075">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -472,10 +466,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/stus.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dom4j/Demo02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
