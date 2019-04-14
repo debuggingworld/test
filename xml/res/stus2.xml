@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<stus>
+    <stu id="01">
+        <name>zhangsan</name>
+        <age>18</age>
+        <sex>男</sex>
+    </stu>
+</stus>
