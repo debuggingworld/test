@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2019/4/12 0012
-  Time: 23:31
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -13,8 +7,8 @@
     <script type="text/javascript">
         function proc() {
             var email=document.getElementById("email").value;
-
-            ajax("post","email","email="+email,function (data) {
+            console.log("email:::"+email);
+            ajax("get","email","email="+email,function (data) {
                 var info;
                 if (data == 0) {
                     info = "<span style='color:green'>可以注册!</span>";

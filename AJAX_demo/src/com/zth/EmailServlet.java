@@ -18,10 +18,10 @@ public class EmailServlet extends HttpServlet {
         PrintWriter out = resp.getWriter();
 
         String email = req.getParameter("email");
-
+        System.out.println("email::"+email);
 
         // 模拟从数据库读取
-        if (email.equals("admin@qq.com")){
+        if ("admin@qq.com".equals(email)){
             out.print(1);
         }else {
             out.print(0);

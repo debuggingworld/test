@@ -9,21 +9,34 @@ function creatXMLHttp() {
 }
 
 function ajax(method, url, data, proc) {
+
+   console.log("ajax.....开始");
+
     creatXMLHttp();
 
-    xmlHttp.open(method,url);
+   /* if (method.toLowerCase() == "post") {
+        xmlHttp.open(method,url);
+    }else {
+        console.log(url+"?"+data);
+
+        xmlHttp.open("get","email?email="+data);
+        //xmlHttp.open(method,"email?email=admin@qq.com");
+    }*/
+    xmlHttp.open("get",url+"?email="+data);
+   // xmlHttp.open(method,url);
 
     xmlHttp.onreadystatechange = function () {
+
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
             proc.call(null,xmlHttp.responseText);
         }
     }
-
-    if (method.toLowerCase() == "post") {
+    xmlHttp.send();
+   /* if (method.toLowerCase() == "post") {
         xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
         xmlHttp.send(data);
     }else {
         xmlHttp.send();
-    }
+    }*/
 
 }
