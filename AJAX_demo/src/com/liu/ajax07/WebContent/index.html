@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ajax_xml</title>
+<script type="text/javascript" src="ajax.js"></script>
+<script type="text/javascript">
+   function proc()
+   {
+	   document.getElementById("but").disabled=true;
+	   ajax("get","bookinfo",null,function(doc){
+		   //json-->字符串转
+		   var json=eval("("+doc+")");
+		 //  alert(json.length);
+		 //  var book=doc.getElementsByTagName("book");
+		 //dom
+		 
+	   for(var i=0;i<json.length;i++)
+			   {
+			      var tr=document.createElement("tr");
+			      
+			        var td1=document.createElement("td");
+				    var td1txt=document.createTextNode(i+1);
+				    td1.appendChild(td1txt);
+				    
+				    var td2=document.createElement("td");
+				    var td2txt=document.createTextNode(json[i].name);
+				    td2.appendChild(td2txt);
+				    
+				    
+				    var td3=document.createElement("td");
+				    var td3txt=document.createTextNode(json[i].author);
+				    td3.appendChild(td3txt);
+				    
+				    tr.appendChild(td1);
+				    tr.appendChild(td2);
+				    tr.appendChild(td3);
+				    
+				    document.getElementById("tt").appendChild(tr);
+			   }
+		  
+		    
+	   });
+   }
+</script>
+</head>
+<body>
+<center>
+<input type="button" value="OK" id="but" onclick="proc();"/>
+<table border="1" width="200" id="tt">
+   <tr><th>ID</th><th>Name</th><th>Author</th></tr>
+   <tr></tr>
+</table>
+   
+</center>
+</body>
+</html>
