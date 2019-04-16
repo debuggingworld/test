@@ -7,6 +7,7 @@
         <element id="directory" name="classes">
           <element id="module-output" name="AJAX_demo" />
         </element>
+        <element id="library" level="project" name="fastjson-1.2.55" />
       </element>
     </root>
   </artifact>
