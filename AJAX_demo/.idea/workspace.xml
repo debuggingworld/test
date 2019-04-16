@@ -8,11 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a4c61ed-e931-4327-ad69-86c23a513d2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/liu/ajax06/src/com/xzy/BookInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/ajax06/src/com/xzy/BookInfoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/liu/ajax07/src/com/xzy/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/ajax07/src/com/xzy/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/liu/ajax07/src/com/xzy/BookInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/ajax07/src/com/xzy/BookInfoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/liu/ajax08/src/com/xzy/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/ajax08/src/com/xzy/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/liu/ajax08/src/com/xzy/BookInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liu/ajax08/src/com/xzy/BookInfoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AJAX_demo_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AJAX_demo_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,9 +22,9 @@
     <session id="-241756801">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
@@ -37,14 +33,14 @@
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="14" />
-          <entry key="JSP" value="22" />
+          <entry key="JSP" value="23" />
           <entry key="JavaScript" value="3" />
           <entry key="TypeScript" value="1" />
         </counts>
@@ -52,7 +48,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="702" />
-          <entry key="JSP" value="3562" />
+          <entry key="JSP" value="4448" />
           <entry key="JavaScript" value="376" />
         </counts>
       </usages-collector>
@@ -63,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="200">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -121,7 +117,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="666" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -311,18 +307,19 @@
       <workItem from="1555258978146" duration="136000" />
       <workItem from="1555328082282" duration="7030000" />
       <workItem from="1555380511300" duration="861000" />
-      <workItem from="1555381622672" duration="1710000" />
+      <workItem from="1555381622672" duration="5029000" />
+      <workItem from="1555401053906" duration="3197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39297000" />
+    <option name="totallyTimeSpent" value="45813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="666" y="0" width="683" height="728" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.46067417" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.46066564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -332,7 +329,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923313" weight="0.35016835" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49923313" visible="true" weight="0.23114754" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -355,7 +352,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46067417" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46066564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -365,7 +362,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49923313" visible="true" weight="0.35016835" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923313" weight="0.35016835" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,10 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -511,15 +504,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/demo06.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="13" column="8" selection-start-line="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="409">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="200">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>

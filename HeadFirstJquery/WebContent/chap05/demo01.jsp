@@ -1,29 +1,8 @@
-<%--
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<center>
-    <h3><a href="demo01.jsp">demo01</a></h3>
-    <h3><a href="demo02.jsp">demo02</a></h3>
-    <h3><a href="demo03.jsp">demo03</a></h3>
-    <h3><a href="demo04.jsp">demo04</a></h3>
-    <h3><a href="demo05.jsp">demo05</a></h3>
-    <h3><a href="demo06.jsp">demo06</a></h3>
-
-</center>
-</body>
-</html>
---%>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>JQuery 动画</title>
-    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
 
@@ -81,9 +60,7 @@
             $("#stop").click(function () {
                 $("#animate_div").stop();
             });
-
-
-
+            
         });
     </script>
 </head>
@@ -96,7 +73,7 @@
     <button id="showHide" type="button">显示\隐藏</button><br/><br/>
 
     <%--淡入淡出--%>
-        <%--<button id="fadeIN" type="button">淡入</button>
+        <button id="fadeIN" type="button">淡入</button>
         <button id="fadeOut" type="button">淡出</button>
         <button id="fadeInOut" type="button">淡入\淡出</button><br/><br/>
         <button id="fadeTo" type="button">淡化</button>
@@ -104,27 +81,23 @@
         <br>
         <div id="div2" style="width:80px;height:80px;background-color:green;"></div>
         <br>
-        <div id="div3" style="width:80px;height:80px;background-color:blue;"></div>--%>
+        <div id="div3" style="width:80px;height:80px;background-color:blue;"></div>
 
         <%--滑动--%>
-  <%--  <p id="flip" style="margin: 0px ;padding: 5px;text-align: center;background-color: antiquewhite;
+    <p id="flip" style="margin: 0px ;padding: 5px;text-align: center;background-color: antiquewhite;
 border: 1px red solid ;width: 300px">滑动</p>
     <div id="panel" style="margin: 0px ;padding: 5px;text-align: center;background-color: antiquewhite;
 border: 1px red solid; height: 120px;width: 300px;display: none">
         <p>纵有红颜，百生千劫</p>
         <p>难消君心，万古情愁</p>
-    </div>--%>
+    </div>
 
 
     <%--动画--%>
     <button id="animate_btn" type="button">开始动画</button>
         <button id="stop" type="button">暂停动画</button>
     <div id="animate_div" style="background: antiquewhite;height: 80px;width: 80px;position: absolute"></div>
-
-
-
-
+    
 </center>
 </body>
 </html>
-
