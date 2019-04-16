@@ -43,18 +43,29 @@
             });
 
 
-            $("#email").blur(function () {
-
-                $("#cont").get("../ajax?action=load&email"+$("#email").val(),function (data, status) {
-                    if (data == "1") {
-                        $("#cont").val("<font color=\"red\">已注册</font>");
+        		$("#email").blur(function () {
+                $.get("../ajax?action=getPost&email="+$("#email").val(),function (data, status) {
+                    if (data == 1) {
+                        $("#cont1").html("<font color=\"red\">已注册</font>");
                     }else {
-                        $("#cont").val("<font color=\"green\">未注册</font>");
+                        $("#cont1").html("<font color=\"green\">未注册</font>");
                     }
                 });
             });
 
-        });
+        }); 
+        
+        /* $("#email").blur(function () {
+            $.post("../ajax?action=getPost",{email : $("#email").val()},function (data, status) {
+                if (data == 1) {
+                    $("#cont1").html("<font color=\"red\">已注册</font>");
+                }else {
+                    $("#cont1").html("<font color=\"green\">未注册</font>");
+                }
+            });
+        }); 
+
+    });*/
 
 
 
@@ -62,12 +73,13 @@
 </head>
 <body>
 <center>
-    <button type="button" id="load">加载数据</button><br><br/>
+    <button type="button" id="load">加载数据</button><br>
+     <div></div><br/>
+    
 
-    email:<input type="email" id ="email"/><span id="cont"></span><br>
+    email:<input type="email" id ="email"/><span id="cont1"></span><br>
     密码:<input type="password">
 
-    <div></div>
 </center>
 
 </body>
