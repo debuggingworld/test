@@ -8,7 +8,7 @@
         function proc() {
             var email=document.getElementById("email").value;
             console.log("email:::"+email);
-            ajax("get","email","email="+email,function (data) {
+            ajax("post","email","email="+email,function (data) {
                 var info;
                 if (data == 0) {
                     info = "<span style='color:green'>可以注册!</span>";
