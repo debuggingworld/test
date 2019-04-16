@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jquery对ajax 的封装</title>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	
+	$("#but").click(function(){
+		$(this).attr("disabled",true);
+		$.get("bookinfo",{name:"lisi",age:12},function(json){
+			for(var i=0;i<json.length;i++)
+				{
+					var tr="<tr><td>"+(i+1)+"</td><td>"+json[i].name+"</td><td>"+json[i].author+"</td></tr>";
+					$("#tt").append(tr);
+				}
+		});
+		
+	});
+});
+
+/*    function proc()
+   {
+	   document.getElementById("but").disabled=true;
+	  
+   } */
+</script>
+</head>
+<body>
+<center>
+<input type="button" value="OK" id="but"/>
+<table border="1" width="200" id="tt">
+   <tr><th>ID</th><th>Name</th><th>Author</th></tr>
+   <tr></tr>
+</table>
+   
+</center>
+</body>
+</html>

@@ -1,3 +1,4 @@
+/*
 package com.xzy;
 
 import java.io.IOException;
@@ -31,3 +32,4 @@ public class BookInfoServlet extends HttpServlet
 	}
 
 }
+*/
