@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <conelement value="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER" />
+    <src_description expected_position="0">
+      <src_folder value="file://E:/usedcar-master/usedcar/src/main/java" expected_position="0" />
+      <src_folder value="file://E:/usedcar-master/usedcar/src/test/resources" expected_position="1" />
+      <src_folder value="file://E:/usedcar-master/usedcar/src/main/resources" expected_position="2" />
+      <src_folder value="file://E:/usedcar-master/usedcar/src/test/java" expected_position="3" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://E:/usedcar-master/usedcar/target/classes" />
+    <exclude-output />
+    <content url="file://E:/usedcar-master/usedcar">
+      <sourceFolder url="file://E:/usedcar-master/usedcar/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://E:/usedcar-master/usedcar/src/test/resources" isTestSource="false" />
+      <sourceFolder url="file://E:/usedcar-master/usedcar/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://E:/usedcar-master/usedcar/src/test/java" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER" level="application" />
+    <orderEntry type="jdk" jdkName="J2SE-1.5" jdkType="JavaSDK" />
+  </component>
+</module>
